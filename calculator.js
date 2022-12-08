@@ -1,26 +1,32 @@
 
 //Imprimindo a "logo" do programa
-console.log('  ____ _____ _____                  _____          _      _____ _    _ _            _______ ____  _____   ');
-console.log(' |  _ \\_   _|  __ \\     /\\         / ____|   /\\   | |    / ____| |  | | |        /\\|__   __/ __ \\|  __ \  ');
-console.log(' | |_) || | | |__) |   /  \\       | |       /  \\  | |   | |    | |  | | |       /  \\  | | | |  | | |__) | ');
-console.log(' |  _ < | | |  _  /   / /\\ \\      | |      / /\\ \\ | |   | |    | |  | | |      / /\\ \\ | | | |  | |  _  /  ');
-console.log(' | |_) || |_| | \\ \\  / ____ \\     | |____ / ____ \\| |___| |____| |__| | |____ / ____ \\| | | |__| | | \\ \\  ');
-console.log(' |____/_____|_|  \\_\\/_/    \\_\\     \\_____/_/    \\_\\______\\_____|\\____/|______/_/    \\_\\_|  \\____/|_|  \\_\\ ');
-console.log('\n\nWelcome to Bira`s Calculator!');
+console.log('\n\nWelcome to');
+console.log('  ____ _____ _____                ');
+console.log(' |  _ \\_   _|  __ \\     /\\     ');
+console.log(' | |_) || | | |__) |   /  \\      ');
+console.log(' |  _ < | | |  _  /   / /\\ \\    ');
+console.log(' | |_) || |_| | \\ \\  / ____ \\  ');
+console.log(' |____/_____|_|  \\_\\/_/    \\_\\');
+console.log('   _____          _      _____ _    _ _            _______ ____  _____              ');
+console.log('  / ____|   /\\   | |    / ____| |  | | |        /\\|__   __/ __ \\|  __ \          ');
+console.log(' | |       /  \\  | |   | |    | |  | | |       /  \\  | | | |  | | |__) |         ');
+console.log(' | |      / /\\ \\ | |   | |    | |  | | |      / /\\ \\ | | | |  | |  _  /        ');
+console.log(' | |____ / ____ \\| |___| |____| |__| | |____ / ____ \\| | | |__| | | \\ \\        ');
+console.log('  \\_____/_/    \\_\\______\\_____|\\____/|______/_/    \\_\\_|  \\____/|_|  \\_\\ ');
 
 //#region Opções de Operações
     var menu = [
-        operacao01 = { nome: '[01] - Soma'               },
-        operacao02 = { nome: '[02] - Subtração'          },
-        operacao03 = { nome: '[03] - Multiplicação'      },
-        operacao04 = { nome: '[04] - Divisão'            },
-        operacao05 = { nome: '[05] - Potencia'           },
-        operacao06 = { nome: '[06] - Raiz'               },
-        operacao07 = { nome: '[07] - Fatorial'           },
-        operacao08 = { nome: '[08] - Calcular Triângulo' },
-        operacao09 = { nome: '[09] - Calcular IMC'       },
-        operacao10 = { nome: '[10] - Par ou Impar'       }
-    ]
+        operacao01 = { nome: '[01] - Soma'               }, //0
+        operacao02 = { nome: '[02] - Subtração'          }, //1
+        operacao03 = { nome: '[03] - Multiplicação'      }, //2
+        operacao04 = { nome: '[04] - Divisão'            }, //3
+        operacao05 = { nome: '[05] - Potencia'           }, //4
+        operacao06 = { nome: '[06] - Raiz'               }, //5
+        operacao07 = { nome: '[07] - Fatorial'           }, //6
+        operacao08 = { nome: '[08] - Calcular Triângulo' }, //7
+        operacao09 = { nome: '[09] - Calcular IMC'       }, //8
+        operacao10 = { nome: '[10] - Par ou Impar'       }  //9
+    ];
 //#endregion
 
 //#region Funções
