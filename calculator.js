@@ -1,12 +1,11 @@
 
-console.log('  ____ _____ _____                  _____          _      _____ _    _ _            _______ ____  _____   ');
+//Imprimindo a "logo" do programa
+onsole.log('  ____ _____ _____                  _____          _      _____ _    _ _            _______ ____  _____   ');
 console.log(' |  _ \\_   _|  __ \\     /\\         / ____|   /\\   | |    / ____| |  | | |        /\\|__   __/ __ \\|  __ \  ');
 console.log(' | |_) || | | |__) |   /  \\       | |       /  \\  | |   | |    | |  | | |       /  \\  | | | |  | | |__) | ');
 console.log(' |  _ < | | |  _  /   / /\\ \\      | |      / /\\ \\ | |   | |    | |  | | |      / /\\ \\ | | | |  | |  _  /  ');
 console.log(' | |_) || |_| | \\ \\  / ____ \\     | |____ / ____ \\| |___| |____| |__| | |____ / ____ \\| | | |__| | | \\ \\  ');
 console.log(' |____/_____|_|  \\_\\/_/    \\_\\     \\_____/_/    \\_\\______\\_____|\\____/|______/_/    \\_\\_|  \\____/|_|  \\_\\ ');
-
-
 console.log('\n\nWelcome to Bira`s Calculator!');
 
 //#region Opções de Operações
@@ -175,6 +174,7 @@ console.log('\n\nWelcome to Bira`s Calculator!');
         else if (escolha == 7) {        
             let n = prompt('Digite aqui o número: ');
             
+            //Exibindo o resultado da operação
             console.log(fatorial(n));
         }
         else if (escolha == 8) {
@@ -193,4 +193,5 @@ console.log('\n\nWelcome to Bira`s Calculator!');
     }
 //#endregion
 
+//Iniciando o programa de fato
 inicio();
