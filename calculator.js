@@ -8,7 +8,6 @@ console.log(' |____/_____|_|  \\_\\/_/    \\_\\     \\_____/_/    \\_\\______\\_
 
 
 console.log('\n\nWelcome to Bira`s Calculator!');
-console.log('Escolha qual Operação deseja:\n');
 
 //#region Opções de Operações
     var menu = [
@@ -147,10 +146,12 @@ console.log('Escolha qual Operação deseja:\n');
         }
         
         //Gravando  a escolha do usuário
-        var escolha = prompt('');
+        console.log('');
+        var escolha = prompt('Digite aqui a opção de opreação que deseja: ');
         
         //Dependdendo da escolha do usuário, ele roda a função selecionada:
         if (escolha <= 0 || escolha > 10) {
+            console.log('\nEscolha direito...\n');
             inicio();
         }
         else if (escolha == 1) {
@@ -186,6 +187,7 @@ console.log('Escolha qual Operação deseja:\n');
             parimp();
         }
         else {
+            console.log('\nEscolha direito...\n');
             inicio();
         }    
     }
