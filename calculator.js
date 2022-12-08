@@ -1,6 +1,6 @@
 
 //Imprimindo a "logo" do programa
-onsole.log('  ____ _____ _____                  _____          _      _____ _    _ _            _______ ____  _____   ');
+console.log('  ____ _____ _____                  _____          _      _____ _    _ _            _______ ____  _____   ');
 console.log(' |  _ \\_   _|  __ \\     /\\         / ____|   /\\   | |    / ____| |  | | |        /\\|__   __/ __ \\|  __ \  ');
 console.log(' | |_) || | | |__) |   /  \\       | |       /  \\  | |   | |    | |  | | |       /  \\  | | | |  | | |__) | ');
 console.log(' |  _ < | | |  _  /   / /\\ \\      | |      / /\\ \\ | |   | |    | |  | | |      / /\\ \\ | | | |  | |  _  /  ');
@@ -10,16 +10,16 @@ console.log('\n\nWelcome to Bira`s Calculator!');
 
 //#region Opções de Operações
     var menu = [
-        op01 = { nome: '[01] - Soma'               },
-        op02 = { nome: '[02] - Subtração'          },
-        op03 = { nome: '[03] - Multiplicação'      },
-        op04 = { nome: '[04] - Divisão'            },
-        op05 = { nome: '[05] - Potencia'           },
-        op06 = { nome: '[06] - Raiz'               },
-        op07 = { nome: '[07] - Fatorial'           },
-        op08 = { nome: '[08] - Calcular Triângulo' },
-        op09 = { nome: '[09] - Calcular IMC'       },
-        op10 = { nome: '[10] - Par ou Impar'       }
+        operacao01 = { nome: '[01] - Soma'               },
+        operacao02 = { nome: '[02] - Subtração'          },
+        operacao03 = { nome: '[03] - Multiplicação'      },
+        operacao04 = { nome: '[04] - Divisão'            },
+        operacao05 = { nome: '[05] - Potencia'           },
+        operacao06 = { nome: '[06] - Raiz'               },
+        operacao07 = { nome: '[07] - Fatorial'           },
+        operacao08 = { nome: '[08] - Calcular Triângulo' },
+        operacao09 = { nome: '[09] - Calcular IMC'       },
+        operacao10 = { nome: '[10] - Par ou Impar'       }
     ]
 //#endregion
 
